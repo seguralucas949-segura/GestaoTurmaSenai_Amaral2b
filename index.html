@@ -1,54 +1,151 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-
-    <!-- TAG DO MEU SITE-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esse é uma pagina modelo">
-    <meta name="keywords" content="sites,web desenvolvimento backend">
-    <meta name="author" content="Segura">
-    <title>HOME: Titulo Principal</title>
+    <title>CineMax</title>
 
-    <!-- ICONE DO MEU SITE-->
-    <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
-
 </head>
 
 <body>
+
     <header>
-        <h1>Bem Vindo ao Meu Site</h1>
+        <div class="logo">
+            <h1>CineMax</h1>
+        </div>
+
         <nav>
-
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-
+            <a href="#">Início</a>
+            <a href="#">Filmes</a>
+            <a href="#">Sessões</a>
+            <a href="#">Contato</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Seção Principal</h2>
-            <p>Este é um parágrafo de exemplo para a seção principal do site Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, quae quod error dolores fugit magni accusantium, incidunt cum impedit minus reprehenderit ipsa voluptatum at, facere saepe sint ratione laborum id culpa repudiandae tempora facilis mollitia similique voluptate. Suscipit illum maxime eum et commodi perspiciatis ducimus ratione nihil, odio provident cumque?
-                .</p>
+
+        <section class="banner">
+
+            <article class="banner-content">
+
+                <h2>O Melhor Cinema da Cidade</h2>
+
+                <p>
+                    Assista aos maiores lançamentos em alta qualidade.
+                </p>
+
+                <button class="btn">
+                    Comprar Ingresso
+                </button>
+
+            </article>
+
         </section>
 
-        <section>
-            <h2>Outra Seção</h2>
-            <p>Este é outro parágrafo de exemplo para uma seção adicional do site.</p>
+        <section class="filmes">
+
+            <h2 class="titulo">
+                Filmes em Cartaz
+            </h2>
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=800"
+                            alt="Filme Vingadores">
+                    </figure>
+
+                    <div class="card-content">
+
+                        <h3>Vingadores</h3>
+
+                        <p>
+                            Ação e aventura com os maiores heróis da Marvel.
+                        </p>
+
+                        <button class="btn">
+                            Ver Sessões
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800"
+                            alt="Filme Interestelar">
+                    </figure>
+
+                    <div class="card-content">
+
+                        <h3>Interestelar</h3>
+
+                        <p>
+                            Uma viagem épica pelo espaço e pelo tempo.
+                        </p>
+
+                        <button class="btn">
+                            Ver Sessões
+                        </button>
+
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800"
+                            alt="Filme Batman">
+                    </figure>
+
+                    <div class="card-content">
+
+                        <h3>Batman</h3>
+
+                        <p>
+                            O Cavaleiro das Trevas retorna para salvar Gotham.
+                        </p>
+
+                        <button class="btn">
+                            Ver Sessões
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
+
+        <aside class="extra">
+
+            <h2>
+                Promoções Especiais
+            </h2>
+
+            <p>
+                Toda quarta-feira os ingressos possuem 50% de desconto.
+            </p>
+
+        </aside>
+
     </main>
 
     <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+
+        <p>
+            © 2026 CineMax - Todos os direitos reservados.
+        </p>
+
     </footer>
-
-
-
-
 
 </body>
 
