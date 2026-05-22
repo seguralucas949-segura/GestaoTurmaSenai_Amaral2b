@@ -1,12 +1,57 @@
 /* style.css */
-@import url(UTF-8);
-@import url(reset.css);
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+@font-face {
+    font-family: Exército ;
+    src: url(fonts/Capture_it.ttf) format("truetype");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body{
   background-color: #f4f4f4;

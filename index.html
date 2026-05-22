@@ -1,155 +1,142 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gestão de Turmas - SENAI</title>
+    <meta charset="UTF-8" />
 
-  <link rel="stylesheet" href="css/style.css"/>
-  <link rel="icon" type="image/png" href="https://tse4.mm.bing.net/th/id/OIP.k5Pn8CplpCH9t2KUShP99AHaCH?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+    <title>Gestão de Turmas - SENAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description"
+        content="Sistema de gestão de turmas para cursos do SENAI. Cadastre e organize suas turmas de forma simples e eficiente." />
+    <meta name="keywords" content="SENAI, gestão de turmas, cadastro de turmas, cursos técnicos, profissionalizantes" />
+    <meta name="author" content="Lucas Segura" />
+    <link rel="icon" type="image/png"
+        href="https://tse4.mm.bing.net/th/id/OIP.k5Pn8CplpCH9t2KUShP99AHaCH?rs=1&pid=ImgDetMain&o=7&rm=3" />
 
-  <script defer src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
 
-  <!-- CABEÇALHO -->
-  <header>
-    <div class="logo">
-      <h1>Gestão de Turmas</h1>
-      <p>SENAI</p>
-    </div>
-
-    <nav>
-      <a href="#inicio">Início</a>
-      <a href="#cadastro">Cadastro</a>
-      <a href="#turmas">Turmas</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
-
-  <!-- CONTEÚDO PRINCIPAL -->
-  <main>
-
-    <!-- INÍCIO -->
-    <section id="inicio" class="banner">
-      <article>
-        <h2>Sistema de Gestão de Turmas</h2>
-
-        <p>
-          Plataforma simples para cadastro e organização
-          de turmas e alunos dos cursos do SENAI.
-        </p>
-
-        <button onclick="mostrarMensagem()">
-          Saiba Mais
-        </button>
-      </article>
-    </section>
-
-    <!-- CADASTRO -->
-    <section id="cadastro" class="cadastro">
-      <h2>Cadastro de Turma</h2>
-
-      <form id="formTurma">
-
-        <div class="campo">
-          <label for="curso">Curso</label>
-
-          <input
-            type="text"
-            id="curso"
-            placeholder="Digite o nome do curso"
-            required
-          />
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">
+            <h1>Gestão de Turmas</h1>
+            <p>SENAI</p>
         </div>
 
-        <div class="campo">
-          <label for="professor">Professor</label>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#cadastro">Cadastro</a>
+            <a href="#turmas">Turmas</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-          <input
-            type="text"
-            id="professor"
-            placeholder="Nome do professor"
-            required
-          />
-        </div>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
 
-        <div class="campo">
-          <label for="sala">Sala</label>
+        <!-- INÍCIO -->
+        <section id="inicio" class="banner">
+            <article>
+                <h2>Sistema de Gestão de Turmas</h2>
 
-          <input
-            type="text"
-            id="sala"
-            placeholder="Número da sala"
-            required
-          />
-        </div>
+                <p>
+                    Plataforma simples para cadastro e organização
+                    de turmas e alunos dos cursos do SENAI.
+                </p>
 
-        <div class="campo">
-          <label for="turno">Turno</label>
+                <button onclick="mostrarMensagem()">
+                    Saiba Mais
+                </button>
+            </article>
+        </section>
 
-          <select id="turno" required>
-            <option value="">Selecione</option>
-            <option>Manhã</option>
-            <option>Tarde</option>
-            <option>Noite</option>
-          </select>
-        </div>
+        <!-- CADASTRO -->
+        <section id="cadastro" class="cadastro">
+            <h2>Cadastro de Turma</h2>
 
-        <div class="campo">
-          <label for="alunos">Quantidade de alunos</label>
+            <form id="formTurma">
 
-          <input
-            type="number"
-            id="alunos"
-            placeholder="Ex: 30"
-            required
-          />
-        </div>
+                <div class="campo">
+                    <label for="curso">Curso</label>
 
-        <button type="submit" class="btn">
-          Cadastrar Turma
-        </button>
+                    <input type="text" id="curso" placeholder="Digite o nome do curso" required />
+                </div>
 
-      </form>
-    </section>
+                <div class="campo">
+                    <label for="professor">Professor</label>
 
-    <!-- TURMAS -->
-    <section id="turmas" class="turmas">
-      <h2>Turmas Cadastradas</h2>
+                    <input type="text" id="professor" placeholder="Nome do professor" required />
+                </div>
 
-      <div id="listaTurmas" class="cards">
-      </div>
-    </section>
+                <div class="campo">
+                    <label for="sala">Sala</label>
 
-    <!-- INFORMAÇÕES -->
-    <aside class="informacoes">
-      <h2>Informações</h2>
+                    <input type="text" id="sala" placeholder="Número da sala" required />
+                </div>
 
-      <p>
-        O SENAI oferece diversos cursos técnicos
-        e profissionalizantes para formação
-        de estudantes e trabalhadores.
-      </p>
+                <div class="campo">
+                    <label for="turno">Turno</label>
 
-      <ul>
-        <li>✔ Cursos Técnicos</li>
-        <li>✔ Cursos Profissionalizantes</li>
-        <li>✔ Laboratórios Modernos</li>
-        <li>✔ Professores Especializados</li>
-      </ul>
-    </aside>
+                    <select id="turno" required>
+                        <option value="">Selecione</option>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
 
-  </main>
+                <div class="campo">
+                    <label for="alunos">Quantidade de alunos</label>
 
-  <!-- RODAPÉ -->
-  <footer id="contato">
-    <p>© 2026 - Gestão de Turmas SENAI</p>
+                    <input type="number" id="alunos" placeholder="Ex: 30" required />
+                </div>
 
-    <p>Email: contato@senai.com.br</p>
-  </footer>
+                <button type="submit" class="btn">
+                    Cadastrar Turma
+                </button>
+
+            </form>
+        </section>
+
+        <!-- TURMAS -->
+        <section id="turmas" class="turmas">
+            <h2>Turmas Cadastradas</h2>
+
+            <div id="listaTurmas" class="cards">
+            </div>
+        </section>
+
+        <!-- INFORMAÇÕES -->
+        <aside class="informacoes">
+            <h2>Informações</h2>
+
+            <p>
+                O SENAI oferece diversos cursos técnicos
+                e profissionalizantes para formação
+                de estudantes e trabalhadores.
+            </p>
+
+            <ul>
+                <li>✔ Cursos Técnicos</li>
+                <li>✔ Cursos Profissionalizantes</li>
+                <li>✔ Laboratórios Modernos</li>
+                <li>✔ Professores Especializados</li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer id="contato">
+        <p>© 2026 - Gestão de Turmas SENAI</p>
+
+        <p>Email: contato@senai.com.br</p>
+    </footer>
 
 </body>
+
 </html>
