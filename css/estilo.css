@@ -3,12 +3,13 @@
 @import "reset.css";
 @import "cores.css";
 @font-face {
-    font-family: Exército ;
-    src: url(fonts/Capture_it.ttf) format("truetype");
+    font-family: Exercito ;
+    src: url(fonts/font_exercito/Capture\ it.ttf) format("truetype");
 }
 body{
-    font-family: Exército;
+    font-family: Exercito;
     color: var(--cor0);
+    background-color: var(--cor1);
 }
 
 

@@ -1,2 +1,4 @@
-@charset "UTF-8";
-@import "reset.css";
+:root{
+    --cor0: #000000;
+    --cor1: #b64040;
+}
