@@ -5,3 +5,4 @@ ou não está pronto
 Esse arquivo esta ficando legal
 22/05 -07:35 coloquei um icone na página. 
 22/05 -08:15 começando a alterar o site
+22/05 -8:21 O site de Gestão está concluído
