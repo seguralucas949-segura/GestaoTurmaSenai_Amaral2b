@@ -1,6 +1,6 @@
 This logo was generated using the following font:
 
-- Font Title: K2D
+- Font Title: Farsan
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/k2d/v12/J7aTnpF2V0ETd68tnLcg7w.ttf
+- Font Source: https://fonts.gstatic.com/s/farsan/v23/VEMwRoJ0vY_zsyz62q-pxDX9rQ.ttf
 - Font License: undefined)
