@@ -4,29 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Exemplo de página HTML com estrutura básica, imagem e conteúdo principal.">
+    <meta name="description" content="Exemplo de página HTML com estrutura básica, imagem e conteúdo principal.">
     <meta name="keywords" content="HTML, exemplo, página, estrutura, cabeçalho, imagem, conteúdo">
     <meta name="author" content="Lucas Segura">
     <link rel="icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Exemplo de Página HTML</title>
+    <!-- TESTE VIA GITHUB -->
 
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="menu-principal">
             <ul>
-                <li>
-                    <a href="gestao.html">HOME</a>
-                </li>
-                <li>
-                    <a href="#">CONTATO</a>
-                </li>
-                <li>
-                    <a href="#">NOTÍCIAS</a>
-                </li>
+                <li><a href="#">Lellis Ito - A</a></li>
+                <li><a href="#">Lellis Ito - B</a></li>
+                <li><a href="#">Amaral - A</a></li>
+                <li><a href="#">AmaralS - B</a></li>
+
             </ul>
         </nav>
     </header>
@@ -37,32 +33,26 @@
             <img src="https://placehold.co/600x400/orange/white" alt="banner">
         </picture>
     </div>
-    <section class="senai mk">
-        <h1> SENAI MAIRINQUE</h1>
-        <div class="turmas">
-            <section class="sala turma amaral">
-                <h2> TURMAS - AMARAL - 2A</h2>
-                <hr>
-                <ul>
-                    <li>Gabriel</li>
-                    <li> Murilo </li>
-                    <li> ana </li>
-                    <li> Lucas</li>
+    <section headingffset="1">
+        <h1> TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> NO SENAI-MK</h1>
+        <section>
+            <header>
+                <h2>Lellis Ito - A</h2>
+            </header>
+            <div>
+                <ul class="lista-alunos lellis" id="alunoslellisitoA">
+                    <li>Lucas</li>
+                    <li>Gustavo</li>
+                    <li>Bruno</li>
+                    <li>Maria</li>
                 </ul>
-            </section>
-
-            <section class="sala turma amaral">
-                <h2> TURMAS - AMARAL - 2A</h2>
-                <hr>
-                <ul>
-                    <li>Allan</li>
-                    <li>Ruan</li>
-                    <li> Ana </li>
-                    <li> carol</li>
-                </ul>
-            </section>
-        </div>
-    </section>
+            </div>
+            <footer>
+                <div>Quantidade de alunos:
+                    <p id="qtdealunosLellisitoA"><mark>0</mark></p>
+                </div>
+            </footer>
+        </section>
 
 </body>
 
