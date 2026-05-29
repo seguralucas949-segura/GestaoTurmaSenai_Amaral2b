@@ -3,19 +3,19 @@
 @import "cores.css";
 
 
-@font-face {
+ /* @font-face {
      font-family: Fortnite;
      src: url(fonts/fortnite/fortnite.otf)
- }
+ } */
 
 @font-face {
-    font-family: Mario;
-    src: url(fonts/retro_mario/RetroMario-Regular.otf)
-}
+    font-family: exercito;
+    src: url(fonts/font_exercito/Capture\ it.ttf)
+} 
 
 body {
     color: var(--platinum);
-    font-family: Fortnite;
+    font-family: exercito;
     background-color: var(--midnight-violet);
 }
 .tituloPrincipal{
