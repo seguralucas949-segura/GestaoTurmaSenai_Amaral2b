@@ -15,6 +15,7 @@ body{
 header{
     color: var(--corheader);
     background-color: var(--intense-cherry);
+    width: 500px;
 }
 hr{
     border: 1px solid var(--corletra);
