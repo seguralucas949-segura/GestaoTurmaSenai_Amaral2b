@@ -18,22 +18,22 @@
     <header>
         <nav class="menu-principal">
             <ul>
-                <li><a href="#">Lellis Ito - A</a></li>
-                <li><a href="#">Lellis Ito - B</a></li>
-                <li><a href="#">Amaral - A</a></li>
-                <li><a href="#">Amaral - B</a></li>
+                <li><a href="#">Lellis ItoA</a></li>
+                <li><a href="#">Lellis ItoB</a></li>
+                <li><a href="#">AmaralA</a></li>
+                <li><a href="#">AmaralB</a></li>
 
             </ul>
         </nav>
     </header>
-    <p>Este é um exemplo de página HTML.</p>
     <div>
         <picture>
-            <img src="https://placehold.co/1500x600/orange/white" alt="banner" width="1000" height="600">
+            <source media="(max-width:650px)" srcset="img/600x400.svg">
+            <source media="(max-width:465px)" srcset="img/300x100.svg.svg">
+            <img src="img/600x400.svg" alt="Imagem de exemplo">
         </picture>
-    </div>q
+    </div>
     <section class="turmas">
-        <!-- HABILITA OUTRO H1 -->
         <h1> TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> NO SENAI-MK</h1>
         <section>
             <header>
@@ -112,5 +112,4 @@
         </section>
     </section>
 </body>
-
 </html>
