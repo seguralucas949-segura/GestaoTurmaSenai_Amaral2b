@@ -44,13 +44,7 @@ header {
     background-color: aqua;
 }
 
-section {
-    /* background-color: aquamarine; */
-}
 
-/* section section{
-           font-size: 0;
-        }    */
 #turmas section {
     display: inline-block;
     vertical-align: top;
