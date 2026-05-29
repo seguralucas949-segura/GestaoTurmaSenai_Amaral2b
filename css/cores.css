@@ -1,30 +1,8 @@
-:root {
-    --corletra: #000000;
-    --corfundo: #b64040;
-    --coffee-bean: #191516ff;
-    --intense-cherry: #c33149ff;
-    --ocean-blue: #1481baff;
-    --white-smoke: #f0f2efff;
-    --bright-sky: #0caadcff;
-    --yale-blue: #124e78ff;
-    --cream: #f0f0c9ff;
-    --amber-gold: #f2bb05ff;
-    --spicy-orange: #d74e09ff;
-    --dark-garnet: #6e0e0aff;
-    --prussian-blue: #031d44ff;
-    --deep-space-blue: #04395eff;
-    --muted-teal: #70a288ff;
-    --tan: #dab785ff;
-    --burnt-peach: #d5896fff;
-    --deep-space-blue: #012a4aff;
-    --yale-blue: #013a63ff;
-    --yale-blue-2: #01497cff;
-    --yale-blue-3: #014f86ff;
-    --rich-cerulean: #2a6f97ff;
-    --cerulean: #2c7da0ff;
-    --air-force-blue: #468fafff;
-    --steel-blue: #61a5c2ff;
-    --sky-blue-light: #89c2d9ff;
-    --light-blue: #a9d6e5ff;
-    --forest-green: #228b22ff;
+:root{
+    --CorPreta:#000;
+    --midnight-violet: #351431ff;
+    --platinum: #eef0f2ff;
+    --slate-blue: #735cddff;
+    --tuscan-sun: #e7bb41ff;
+    --vibrant-coral: #f56960ff;
 }

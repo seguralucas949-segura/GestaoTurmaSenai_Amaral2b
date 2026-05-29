@@ -1,119 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <!-- TAG RESPONSIVIDADE --> 
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+        <meta name="description" content="Esse é uma página modelo">
+        <meta name="keywords" content="sites, web, desenvolvimento backend">
+        <meta name="author" content="Gregorio Queiroz, GregMaster, gregmasterbr@gmail.com, 15981057742">
+        <title>HOME:GESTÃO DE TURMAS DO SENAI</title>
+        <!-- ICONE DO MEU SITE --> 
+        <!-- <link rel="icon" type="image/x-icon" href="https://www.w3schools.com/favicon.ico"  >             -->
+        <link rel="icon" type="image/jpg" href="favicon.jpg"  >
+        <link rel="stylesheet" href="css/estilo.css">
+        <!-- TESTE VIA GITHUB -->
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Exemplo de página HTML com estrutura básica, imagem e conteúdo principal.">
-    <meta name="keywords" content="HTML, exemplo, página, estrutura, cabeçalho, imagem, conteúdo">
-    <meta name="author" content="Lucas Segura">
-    <link rel="icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilo.css">
-    <title>Exemplo de Página HTML</title>
-    <!-- TESTE VIA GITHUB -->
+    <body>
+        <header>
+            <nav class="menu ">
+                <ul>
+                    <li><a href="#LellisA" >Lellis Ito - Turma A</a></li>
+                    <li><a href="#LellisB" >Lellis Ito - Turma B</a></li>
+                    <li><a href="#AmaralA" >Amaral - Turma A</a></li>
+                    <li><a href="#AmaralB" >Amaral - Turma B</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div>
+            <picture>  
+                <source media="(max-width:650px)" srcset="img/600x400.svg.svg">
+                <source media="(max-width:465px)" srcset="img/300x100.svg.svg">                 
+                <img class="img-banner" src="img/banner.svg" alt="banner">
+            </picture>
+        </div>
+       
+        <section class="senai mk" >
+            <section id="turmas">
+                <h1 class="tituloPrincipal">SENAI MAIRINQUE</h1>
 
-</head>
+                <section  class="sala turma_A lellis " id="LellisA">
+                    <header><h2>Lellis Ito - Turma A</h2></header>
+                    <article>
+                        <ul class="listaAlunos" id="alunosLellis_A">
+                            <li>Christopher</li>
+                            <li>Deuel</li>
+                            <li>Gabriel</li>
+                            <li>Hebert</li>
+                            <li>Lara de Brito</li>
+                            <li>Lara de Marco</li>
+                            <li>Maisa</li>
+                            <li>Maria</li>
+                            <li>Mariana</li>
+                            <li>Murilo</li>
+                            <li>Rafaeli</li>
+                        </ul>
+                    </article>
+                    <footer>
+                        <h3>Quantidade de alunos 
+                            <mark>
+                                <p id="qtdAlunosLellis_A">0</p>
+                            </mark></h3>
+                    </footer>
+                </section>
 
-<body>
-    <header>
-        <nav class="menu-principal">
-            <ul>
-                <li><a href="#">Lellis ItoA</a></li>
-                <li><a href="#">Lellis ItoB</a></li>
-                <li><a href="#">AmaralA</a></li>
-                <li><a href="#">AmaralB</a></li>
+                <section  class="sala turma_B lellis " id="LellisB">
+                    <header><h2>Lellis Ito - Turma B</h2></header>
+                    <article>
+                        <ul class="listaAlunos" id="alunosLellis_B">
+                            <li>João</li>
+                            <li>Rafael</li>
+                            <li>...</li>
+                        </ul>
+                    </article>
+                    <footer>
+                        <h3>Quantidade de alunos
+                            <p id="qtdAlunosLellis_B">10</p>
 
-            </ul>
-        </nav>
-    </header>
-    <div>
-        <picture>
-            <source media="(max-width:650px)" srcset="img/600x400.svg">
-            <source media="(max-width:465px)" srcset="img/300x100.svg.svg">
-            <img src="img/600x400.svg" alt="Imagem de exemplo">
-        </picture>
-    </div>
-    <section class="snai-mk">
-        <section id="turmas">
+                            </h3>
+                    </footer>
+                </section>
 
-            <h1> TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> NO SENAI-MK</h1>
-            <section class="amarala">
-                <header>
-                    <h2>Amaral - A</h2>
-                </header>
-                <div>
-                    <ul class="lista-alunos amaral" id="alunosamaralA">
-                        <li>Murilo</li>
-                        <li>Rafael</li>
-                        <li>Luara</li>
-                        <li>Maria</li>
-                    </ul>
-                </div>
-                <footer>
-                    <div>Quantidade de alunos:
-                        <p id="qtdealunosamaralA"><mark>0</mark></p>
-                    </div>
-                </footer>
+                <section class="sala turma_A amaral " id="AmaralA">
+                    <header><h2>Amaral - Turma A</h2></header>
+                    <article>
+                        <ul>
+                            <li>João</li>
+                            <li>Rafael</li>
+                            <li>...</li>
+                        </ul>
+                    </article>
+                    <footer>
+                        <h3>Quantidade de alunos <mark>10</mark></h3>
+                    </footer>
+                </section>
+
+                <section class="sala turma_B amaral " id="AmaralB">
+                    <header><h2>Amaral - Turma B</h2></header>
+                    <article>
+                        <ul>
+                            <li>João</li>
+                            <li>Rafael</li>
+                            <li>...</li>
+                        </ul>
+                    </article>
+                    <footer>
+                        <h3>Quantidade de alunos <mark>10</mark></h3>
+                    </footer>
+                </section>
             </section>
-            <hr>
-            <section class="amaralb">
-                <header>
-                    <h2>Amaral - B</h2>
-                </header>
-                <div>
-                    <ul class="lista-alunos amaral" id="alunosamaralB">
-                        <li>Lucas</li>
-                        <li>Ruan</li>
-                        <li>Miguel</li>
-                        <li>Felipe</li>
-                    </ul>
-                </div>
-                <footer>
-                    <div>Quantidade de alunos:
-                        <p id="qtdealunosamaralB"><mark>0</mark></p>
-                    </div>
-                </footer>
-            </section>
-            <hr>
-            <section class="lellisA">
-                <header>
-                    <h2>Lellis Ito - A</h2>
-                </header>
-                <div>
-                    <ul class="lista-alunos lellis" id="alunoslellisitoA">
-                        <li>Lucas</li>
-                        <li>Gustavo</li>
-                        <li>Bruno</li>
-                        <li>Maria</li>
-                    </ul>
-                </div>
-                <footer>
-                    <div>Quantidade de alunos:
-                        <p id="qtdealunosLellisitoA"><mark>0</mark></p>
-                    </div>
-                </footer>
-            </section>
-            <hr>
-            <section class="lellisB">
-                <header>
-                    <h2>Lellis Ito - B</h2>
-                </header>
-                <div>
-                    <ul class="lista-alunos lellis" id="alunoslellisitoB">
-                        <li>Lucas</li>
-                        <li>Gustavo</li>
-                        <li>Bruno</li>
-                        <li>Maria</li>
-                    </ul>
-                </div>
-                <footer>
-                    <div>Quantidade de alunos:
-                        <p id="qtdealunosLellisitoB"><mark>0</mark></p>
-                    </div>
-                </footer>
-            </section>
+
         </section>
-    </section>
-</body>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+        <footer>
+            <h3>Desenvolvido por:  <mark><b>Lucas Segura</b></mark></h3>
+        </footer>
 
+    <script>
+        function contarQuantidadeAlunosTurma(lista, qtd) {
+            const listaAlunos = document.getElementById(lista);
+            const quantidade = listaAlunos.querySelectorAll("li").length;
+            document.getElementById(qtd).textContent = quantidade;
+        }
+        contarQuantidadeAlunosTurma('alunosLellis_A', 'qtdAlunosLellis_A');
+
+    </script>
+        
+    </body>
 </html>
