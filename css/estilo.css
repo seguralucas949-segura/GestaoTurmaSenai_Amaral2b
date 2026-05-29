@@ -38,19 +38,19 @@ li, a, nav ul{
     background-color: var(--cerulean);
 }
 .amarala{
-    color: var(--coramarala);
+    color: var(--corletra);
     background-color: var(--yale-blue);
 }
 .amaralb{
-    color: var(--coramaralb);
-    background-color: var(--light-blue);
+    color: var(--corletra);
+    background-color: var(--yale-blue);
 }
 .lellisA{
-    color: var(--corlellisA);
-    background-color: var(--intense-cherry);
+    color: var(--corletra);
+    background-color: var(--yale-blue-2);
 }
 .lellisB{
-    color: var(--corlellisB);
+    color: var(--corletra);
     background-color: var(--yale-blue-2);
 }
 
