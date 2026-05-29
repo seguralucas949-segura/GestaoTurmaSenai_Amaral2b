@@ -8,8 +8,12 @@
 }
 body{
     font-family: Exercito;
-    color: var(--cor0);
-    background-color: var(--cor1);
+    color: var(--corletra);
+    background-color: var(--corfundo);
+}
+section{
+    color:var(--corsection);
+    background-color: var(--corsection);
 }
 
 
